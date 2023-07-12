@@ -12,8 +12,7 @@ struct SwiftUI_v0App: App {
     
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            Facebook(text: .constant(""))
+            MainManager()
         }
     }
 }

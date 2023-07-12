@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - Main view -
-struct ContentView: View {
+struct BasicNavigation: View {
     
     var body: some View {
         NavigationView {
@@ -74,6 +74,6 @@ struct ContinueButton: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        BasicNavigation()
     }
 }
